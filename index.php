@@ -36,6 +36,7 @@ Author: Karthikh Venkat
 	require_once("conf.php");
    // hey here is a 4th comment for master
 	require_once("gb.php");
+   // a new tuesday comment for the mergeconflict branch, but modified in master
 	require_once("db.class.php");
    // $db = new DB;
    // $db->connect($db_host, $db_user, $db_passwd);
