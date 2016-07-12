@@ -104,14 +104,14 @@ HTML_HEADER;
 
 
 //	global $db;
-<<<<<<< HEAD
+
       // this is a new comment in master branch
 	$db=new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb=new GuestBook();
-=======
+
 	$db = new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb = new GuestBook();
->>>>>>> mergeconflict
+
 	if(!isset($_GET['start']))
 		$start=1;
     else
