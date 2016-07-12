@@ -34,6 +34,7 @@ Author: Karthikh Venkat
 	//ini_set("display_errors","On");
 	require_once("conf.php");
 	require_once("gb.php");
+   // a new tuesday comment for the mergeconflict branch
 	require_once("db.class.php");
    // $db = new DB;
    // $db->connect($db_host, $db_user, $db_passwd);
