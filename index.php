@@ -101,6 +101,7 @@ HTML_HEADER;
 
 
 //	global $db;
+      // this is a new comment in master branch
 	$db=new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb=new GuestBook();
 	if(!isset($_GET['start']))
@@ -203,6 +204,7 @@ HTML_HEADER;
 
 					     }
 			       } else {
+                   // this is also a new comment in master branch
 						print"<div class='message'>The Guestbook is empty. Please fill my Guestbook.</div>";	
                    }
 					break;
