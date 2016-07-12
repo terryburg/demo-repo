@@ -107,7 +107,7 @@ HTML_HEADER;
 		$start=1;
     else
 	   $start=$_GET['start'];
-
+// new comment in mergeconflict
 	$action=@$_GET['action'];
 	$submit=@$_POST['submit'];
 	if(($submit=="submit") || ($submit=="Submit"))  {
@@ -187,7 +187,7 @@ HTML_HEADER;
 						 } else {	
 							$num_pages = 1;
 						 }
-	 					 
+	 					 // another new comment in mergeconflict
 						 display_navigation($start,$num_pages);
 
 					     if(!isset($start) || $start <=0)
