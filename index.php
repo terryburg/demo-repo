@@ -113,7 +113,7 @@ HTML_HEADER;
 
 	$db = new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb = new GuestBook();
-
+   // 2nd tuesday comment added to master      
 	if(!isset($_GET['start']))
 		$start=1;
     else
