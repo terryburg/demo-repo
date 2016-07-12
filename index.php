@@ -52,6 +52,7 @@ function display_navigation($start,$num_pages) {
 	print "<div class='page_nav'>\n";
    // here we will add @ to suppress error on the db->total var because it isn't set 
 	print "<div class='total'>Total Entries: ".@$db->total."</div>" ;
+   // whoa another comment in mergeconflict
 	print "		<div class='page'> Pages:&nbsp;&nbsp;&nbsp;</div>\n";
 	print"		<div class='page_no'>";
 				if($start > 1  && $start <=$num_pages)
