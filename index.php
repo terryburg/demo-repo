@@ -101,8 +101,8 @@ HTML_HEADER;
 
 
 //	global $db;
-	$db=new DB($db_database,$db_host,$db_user,$db_passwd);
-	$gb=new GuestBook();
+	$db = new DB($db_database,$db_host,$db_user,$db_passwd);
+	$gb = new GuestBook();
 	if(!isset($_GET['start']))
 		$start=1;
     else
