@@ -48,7 +48,8 @@ function display_navigation($start,$num_pages) {
 	// this function is used to display navigation bar to navigate to different pages
 	//if display_single_page is set to FALSE in configuration file
 	print "<div class='page_nav'>\n";
-	print "<div class='total'>Total Entries: ".$db->total."</div>";
+   // here we will add @ to suppress error on the db->total var because it isn't set 
+	print "<div class='total'>Total Entries: ".@$db->total."</div>" ;
 	print "		<div class='page'> Pages:&nbsp;&nbsp;&nbsp;</div>\n";
 	print"		<div class='page_no'>";
 				if($start > 1  && $start <=$num_pages)
@@ -152,7 +153,8 @@ HTML_HEADER;
 	
 			case "add":
 					  
-					  $gb->display_add_form($error);
+            // oh oh another uninitialized var that must have been okay back in the day; add @
+					  $gb->display_add_form(@$error); 
 					  break;
 			
 			case "s":
