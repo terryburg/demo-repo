@@ -68,7 +68,8 @@ function display_navigation($start,$num_pages) {
 					$l=$start+1;
 				if($l<=$num_pages)
 	print"			<a href='".$_SERVER['PHP_SELF']."?start=".$l."' class='pages'>&gt;&gt;Next</a>&nbsp;\n";
-	print"			</div>\n";
+	// yes indeed comment #5 to master
+            print"			</div>\n";
 	print"</div>\n";
 	}
 
