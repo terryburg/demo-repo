@@ -38,6 +38,7 @@ Author: Karthikh Venkat
 	require_once("gb.php");
    // a new tuesday comment for the mergeconflict branch, but modified in master
 	require_once("db.class.php");
+   // new comment entered on master branch in netbeans
    // $db = new DB;
    // $db->connect($db_host, $db_user, $db_passwd);
    $ss="gb";
