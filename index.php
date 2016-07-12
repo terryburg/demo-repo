@@ -109,6 +109,7 @@ HTML_HEADER;
       // this is a new comment in master branch
 	$db=new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb=new GuestBook();
+   // yet another new comment in master, 1st Tues.
 
 	$db = new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb = new GuestBook();
