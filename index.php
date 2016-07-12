@@ -102,14 +102,19 @@ HTML_HEADER;
 
 
 //	global $db;
+<<<<<<< HEAD
       // this is a new comment in master branch
 	$db=new DB($db_database,$db_host,$db_user,$db_passwd);
 	$gb=new GuestBook();
+=======
+	$db = new DB($db_database,$db_host,$db_user,$db_passwd);
+	$gb = new GuestBook();
+>>>>>>> mergeconflict
 	if(!isset($_GET['start']))
 		$start=1;
     else
 	   $start=$_GET['start'];
-
+// new comment in mergeconflict
 	$action=@$_GET['action'];
 	$submit=@$_POST['submit'];
 	if(($submit=="submit") || ($submit=="Submit"))  {
@@ -189,7 +194,7 @@ HTML_HEADER;
 						 } else {	
 							$num_pages = 1;
 						 }
-	 					 
+	 					 // another new comment in mergeconflict
 						 display_navigation($start,$num_pages);
 
 					     if(!isset($start) || $start <=0)
